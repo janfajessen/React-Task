@@ -1,0 +1,30 @@
+.board {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: yellowgreen;
+
+
+    main {
+        background: bisque;
+        flex: 1;
+    }
+    header {
+        background: rgb(70, 24, 24);
+        padding: 2em;
+        input {
+            all: unset;
+            color: white;
+            font-weight: 500;
+            border-bottom: 1px solid white;
+            padding: 0.5em;
+        }
+    }
+
+    footer {
+        background: black;
+        color: bisque;
+        padding:1em;
+    }
+
+}
