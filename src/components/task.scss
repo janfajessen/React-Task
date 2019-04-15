@@ -1,3 +1,46 @@
 .task {
+    background: white;
+    padding: 1em;
+    border-radius: 4px;
+    margin: 0.4em;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    &.completed {
+        opacity: 0.5;
+        text-decoration: line-through;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    input {
+        all: unset;
+        width: 90%;
+        box-sizing: border-box;
+        box-shadow: 3px;
+        padding: 0.2em;
+        margin: 0.5em;
+    }
+
+    .papelera {
+        width:15px;
+        margin: 3px;
+        // border-radius: 2px;
+        // border: 1px solid red;
+        // background-color: red;
+    }
+
+    .check {
+        width: 15px;
+        margin: 3px;
+        // border-radius: 2px;
+        // border: 1px solid green;
+        // background-color: green;
+    }
     
+    input:focus {
+        border-bottom: 1px solid black;
+    }
 }

@@ -6,11 +6,29 @@
 
 
     main {
-        background: bisque;
+        // background: bisque;
+        background: #e1eec3;  
+        background: -webkit-linear-gradient(to right, #f05053, #e1eec3);  
+        background: linear-gradient(to right, #f05053, #e1eec3); 
+
         flex: 1;
+        padding: 3em;
+    }
+
+    .tasks {
+        padding: 3em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
     }
     header {
-        background: rgb(70, 24, 24);
+        background: #000428;  
+        background: -webkit-linear-gradient(to left, #004e92, #000428);  
+        background: linear-gradient(to left, #004e92, #000428); 
+        
+
         padding: 2em;
         input {
             all: unset;
@@ -18,6 +36,7 @@
             font-weight: 500;
             border-bottom: 1px solid white;
             padding: 0.5em;
+            width: 550px;
         }
     }
 
